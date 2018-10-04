@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="15.246575">
-<testcase classname="Google Homepage" name="Check that the main elements on Google Homepage are displayed" time="7.81293">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="14.970817">
+<testcase classname="Google Homepage" name="Check that the main elements on Google Homepage are displayed" time="6.68416">
 <system-out><![CDATA[Given I launch Chrome browser...............................................passed
 When I open "http://www.google.com" Homepage................................passed
 Then I verify that the page displays search text box........................passed
@@ -9,43 +9,15 @@ And the page displays I'm Feeling Lucky button..............................pass
 And I close the browser.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Google Homepage" name="Search for Selenium on Google Homepage" time="3.601523">
-<failure message="org.openqa.selenium.ElementNotVisibleException: element not interactable&#10;  (Session info: headless chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.15.0-34-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'potchbox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-34-generic', java.version: '1.8.0_181'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:46309}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: 421b16029957e8f3a7a09086b2de6c6e&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#10;&#9;at selenium.Page_GoogleHome.searchForTheseOnGoogle(Page_GoogleHome.java:63)&#10;&#9;at stepDefinitions.StepDefinitions_GoogleHome.i_search_for_on_Google(StepDefinitions_GoogleHome.java:58)&#10;&#9;at ✽.Then I search for &quot;Selenium&quot; on Google(GoogleHomeBackground.feature:23)&#10;"><![CDATA[Given I launch Chrome browser...............................................passed
+<testcase classname="Google Homepage" name="Search for Selenium on Google Homepage" time="6.790785">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
 When I open "http://www.google.com" Homepage................................passed
-Then I search for "Selenium" on Google......................................failed
-And I can see the number of results.........................................skipped
-And I close the browser.....................................................skipped
-
-StackTrace:
-org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: headless chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.15.0-34-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'potchbox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-34-generic', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:46309}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: 421b16029957e8f3a7a09086b2de6c6e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at selenium.Page_GoogleHome.searchForTheseOnGoogle(Page_GoogleHome.java:63)
-	at stepDefinitions.StepDefinitions_GoogleHome.i_search_for_on_Google(StepDefinitions_GoogleHome.java:58)
-	at ✽.Then I search for "Selenium" on Google(GoogleHomeBackground.feature:23)
-]]></failure>
+Then I search for "Selenium" on Google......................................passed
+And I can see the number of results.........................................passed
+And I close the browser.....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Google Homepage" name="Use a Table for data values" time="3.832122">
+<testcase classname="Google Homepage" name="Use a Table for data values" time="1.495872">
 <system-out><![CDATA[Given I launch Chrome browser...............................................passed
 When I open "http://www.google.com" Homepage................................passed
 Then I look for the following details.......................................passed

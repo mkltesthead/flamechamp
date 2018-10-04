@@ -27,7 +27,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 4712967704,
+  "duration": 4853800734,
   "status": "passed"
 });
 formatter.match({
@@ -40,7 +40,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_open_Homepage(String)"
 });
 formatter.result({
-  "duration": 2582700955,
+  "duration": 888899093,
   "status": "passed"
 });
 formatter.scenario({
@@ -81,28 +81,28 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_verify_that_the_page_displays_search_text_box()"
 });
 formatter.result({
-  "duration": 135597958,
+  "duration": 239505246,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.the_page_displays_google_search_button()"
 });
 formatter.result({
-  "duration": 119132461,
+  "duration": 327248519,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.the_page_displays_im_feeling_lucky_button()"
 });
 formatter.result({
-  "duration": 108865112,
+  "duration": 205328763,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 153665478,
+  "duration": 169378113,
   "status": "passed"
 });
 formatter.background({
@@ -126,7 +126,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 491233243,
+  "duration": 661987455,
   "status": "passed"
 });
 formatter.match({
@@ -139,7 +139,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_open_Homepage(String)"
 });
 formatter.result({
-  "duration": 2709661363,
+  "duration": 647843979,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,21 +181,22 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_search_for_on_Google(String)"
 });
 formatter.result({
-  "duration": 400628102,
-  "error_message": "org.openqa.selenium.ElementNotVisibleException: element not interactable\n  (Session info: headless chrome\u003d69.0.3497.100)\n  (Driver info: chromedriver\u003d2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform\u003dLinux 4.15.0-34-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027potchbox\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-34-generic\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:46309}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}\nSession ID: 421b16029957e8f3a7a09086b2de6c6e\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat selenium.Page_GoogleHome.searchForTheseOnGoogle(Page_GoogleHome.java:63)\n\tat stepDefinitions.StepDefinitions_GoogleHome.i_search_for_on_Google(StepDefinitions_GoogleHome.java:58)\n\tat ✽.Then I search for \"Selenium\" on Google(GoogleHomeBackground.feature:23)\n",
-  "status": "failed"
+  "duration": 2291397901,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_can_see_the_number_of_results()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3070830226,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 118724971,
+  "status": "passed"
 });
 formatter.background({
   "line": 4,
@@ -218,7 +219,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 745991365,
+  "duration": 663152182,
   "status": "passed"
 });
 formatter.match({
@@ -231,7 +232,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_open_Homepage(String)"
 });
 formatter.result({
-  "duration": 2953060310,
+  "duration": 720846408,
   "status": "passed"
 });
 formatter.scenario({
@@ -272,14 +273,14 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_look_for_the_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 2140846,
+  "duration": 1121836,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 130929063,
+  "duration": 110751888,
   "status": "passed"
 });
 });
