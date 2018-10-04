@@ -27,7 +27,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 8221130235,
+  "duration": 5427915766,
   "status": "passed"
 });
 formatter.match({
@@ -40,7 +40,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_open_Homepage(String)"
 });
 formatter.result({
-  "duration": 1738106664,
+  "duration": 1020526724,
   "status": "passed"
 });
 formatter.scenario({
@@ -81,28 +81,28 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_verify_that_the_page_displays_search_text_box()"
 });
 formatter.result({
-  "duration": 1085820964,
+  "duration": 138308383,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.the_page_displays_google_search_button()"
 });
 formatter.result({
-  "duration": 144008352,
+  "duration": 295597925,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.the_page_displays_im_feeling_lucky_button()"
 });
 formatter.result({
-  "duration": 141920011,
+  "duration": 210918162,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 201981028,
+  "duration": 129952863,
   "status": "passed"
 });
 formatter.background({
@@ -126,7 +126,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 1691866877,
+  "duration": 879782332,
   "status": "passed"
 });
 formatter.match({
@@ -139,7 +139,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_open_Homepage(String)"
 });
 formatter.result({
-  "duration": 1089482093,
+  "duration": 1019201827,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,21 +181,21 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_search_for_on_Google(String)"
 });
 formatter.result({
-  "duration": 3473061088,
+  "duration": 1990499542,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_can_see_the_number_of_results()"
 });
 formatter.result({
-  "duration": 3113850486,
+  "duration": 3045609358,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 196260364,
+  "duration": 110846670,
   "status": "passed"
 });
 formatter.background({
@@ -219,7 +219,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 640717269,
+  "duration": 540739968,
   "status": "passed"
 });
 formatter.match({
@@ -232,7 +232,7 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_open_Homepage(String)"
 });
 formatter.result({
-  "duration": 931613960,
+  "duration": 654740007,
   "status": "passed"
 });
 formatter.scenario({
@@ -273,14 +273,14 @@ formatter.match({
   "location": "StepDefinitions_GoogleHome.i_look_for_the_following_details(DataTable)"
 });
 formatter.result({
-  "duration": 49961049,
+  "duration": 58287327,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions_GoogleHome.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 144694502,
+  "duration": 131181193,
   "status": "passed"
 });
 });
