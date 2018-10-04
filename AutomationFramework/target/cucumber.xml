@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="14.970817">
-<testcase classname="Google Homepage" name="Check that the main elements on Google Homepage are displayed" time="6.68416">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="22.864475">
+<testcase classname="Google Homepage" name="Check that the main elements on Google Homepage are displayed" time="11.532967">
 <system-out><![CDATA[Given I launch Chrome browser...............................................passed
 When I open "http://www.google.com" Homepage................................passed
 Then I verify that the page displays search text box........................passed
@@ -9,7 +9,7 @@ And the page displays I'm Feeling Lucky button..............................pass
 And I close the browser.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Google Homepage" name="Search for Selenium on Google Homepage" time="6.790785">
+<testcase classname="Google Homepage" name="Search for Selenium on Google Homepage" time="9.564521">
 <system-out><![CDATA[Given I launch Chrome browser...............................................passed
 When I open "http://www.google.com" Homepage................................passed
 Then I search for "Selenium" on Google......................................passed
@@ -17,7 +17,7 @@ And I can see the number of results.........................................pass
 And I close the browser.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Google Homepage" name="Use a Table for data values" time="1.495872">
+<testcase classname="Google Homepage" name="Use a Table for data values" time="1.766987">
 <system-out><![CDATA[Given I launch Chrome browser...............................................passed
 When I open "http://www.google.com" Homepage................................passed
 Then I look for the following details.......................................passed
