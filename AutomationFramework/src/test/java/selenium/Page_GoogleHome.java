@@ -12,7 +12,7 @@ public class Page_GoogleHome extends Page_BasePage {
  
 	public void launchChromeBrowser() {
 		// Define location of chromedriver
-		System.setProperty("webdriver.chrome.driver","/home/flamechamp/chrome/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/home/osboxes/drivers/chromedriver");
 		// Set Chrome Headless Option
 		ChromeOptions options = new ChromeOptions();
 		options.setHeadless(true);
@@ -20,7 +20,7 @@ public class Page_GoogleHome extends Page_BasePage {
 	}
 	
 	public void launchFirefoxBrowser() {
-		System.setProperty("webdriver.gecko.driver","/home/flamechamp/gecko/geckodriver");
+		System.setProperty("webdriver.gecko.driver","/home/osboxes/drivers/geckodriver");
 		System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE,"true");
 		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE ,"/tmp/gecko_headless_log");
 		// Set Firefox Headless Option
